@@ -22,8 +22,5 @@ q=[q_vect; q4];
 qx=[0,  -q_vect(3)  q_vect(2);
     q_vect(3), 0,  -q_vect(1);
     -q_vect(2), q_vect(1), 0];
-
 Iq=[eye(3)*q4+qx;
       -q_vect.'  ];
-
-

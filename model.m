@@ -10,9 +10,9 @@ L=[1; 2; 0];
 
 %% parameters
 
-Jc=[420, -5, 2;
-    -5, 380, 0;
-    2, 0, 500;];
+Jc=[450, 0, 0;
+    0, 400, 0;
+    0, 0, 500;];
 Jc1=Jc.';
 %%
 q_scalar_first = angle2quat(yaw, pitch, roll);
